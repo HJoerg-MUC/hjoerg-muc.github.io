@@ -1,37 +1,42 @@
 #
 #   Navigation to the left › side: left
 #
-- title: Start
+- title: hjoerg.de
   url: "/"
   side: left
 
-- title: "Dropdown Menu"
-  url: "#"
+- title: Research
+  url: "/research/"
   side: left
   dropdown:
-  - title: "Dropdown Menu 1"
-    url: "#"
-  - title: "Dropdown Menu 2"
-    url: "#"
-  - title: "Dropdown Menu 3"
-    url: "#"
+  - title: "Interests"
+    url: "/research/interests/"
+  - title: "Projects"
+    url: "/research/projects"
+  - title: "Science Communication"
+    url: "/research/sci_comm"
 
-- title: Blog
-  url: "/blog/"
+- title: Teaching
+  url: "/teaching/"
   side: left
-  dropdown:
-  - title: "Blog Archive"
-    url: "/blog/archive/"
+
+- title: Publications
+  url: "/publications/"
+  side: left
+
+- title: Talks
+  url: "/talks/"
+  side: left
+
+- title: Bits & Pieces
+  url: "/bits_pieces/"
+  side: left
 
 #
 #   Navigation to the right › side: right
 #
-- title: "Info"
-  url: "/info/"
-  side: right
-
-- title: "Search"
-  url: "/search/"
+- title: "About Me"
+  url: "/about-me/"
   side: right
 
 - title: "Contact"
