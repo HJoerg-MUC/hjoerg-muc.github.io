@@ -8,9 +8,9 @@ License](http://phlow.github.io/feeling-responsive/info/). You can
 find out more about Jekyll at [jekyllrb.com](http://jekyllrb.com/).
 
 [This github
-repository](https://github.com/HJoerg-MUC/hjoerg.github.io)
+repository](https://github.com/HJoerg-MUC/hjoerg-muc.github.io)
 holds the pages and posts, i.e. the content. It is then built/generated with
-Jekyll and dipslayed at [https://hjoerg.github.io/].
+Jekyll and dipslayed at [https://hjoerg-muc.github.io/].
 
 <!-- So, we have the following architecture:
 - In the blog, we have posts ("What is ...") and pages ("How to ...").
