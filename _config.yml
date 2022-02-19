@@ -25,13 +25,13 @@ author: hjoerg
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: 'https://hjoerg.github.io'
+url: 'https://hjoerg-muc.github.io'
 baseurl: ''
 
-repo: "https://github.com/HJoerg-MUC/hjoerg.github.io/tree/master" # base for github-repo
+repo: "https://github.com/HJoerg-MUC/hjoerg-muc.github.io/tree/master" # base for github-repo
 # This is for the editing function in _/includes/improve_content
 # Leave it empty if your site is not on GitHub/GitHub Pages
-improve_content: https://github.com/HJoerg-MUC/hjoerg.github.io/edit/
+improve_content: https://github.com/HJoerg-MUC/hjoerg-muc.github.io/edit/
 
 # This URL points directly to the images directory making
 # things easier to link to images in posts and templates. It needs a slash at the end.
@@ -39,7 +39,7 @@ improve_content: https://github.com/HJoerg-MUC/hjoerg.github.io/edit/
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: 'https://hjoerg.github.io/images/'
+urlimg: 'https://hjoerg-muc.github.io/images/'
 
 
 # Logo size is 600x80 pixels
