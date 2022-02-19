@@ -1,69 +1,93 @@
-## You like and use this theme? Then support me. Just [paypal.me/PhlowMedia](https://www.paypal.me/PhlowMedia) :)
+# Private Homepage of Hannah Joerg
 
-[![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=Phlow&url=https://github.com/Phlow/feeling-responsive&title=Support%20Feeling%20Responsive%20Jekyll%20Theme&language=en_GB&tags=github,jekyll,theme,webdesign&category=software)
+This is -- finally -- the try of . I started out with the
+bare bones version of *Feeling Responsive", a great Jekyll theme,
+hosted at <http://phlow.github.io/feeling-responsive/> and released
+under the [MIT
+License](http://phlow.github.io/feeling-responsive/info/). You can
+find out more about Jekyll at [jekyllrb.com](http://jekyllrb.com/).
+
+[This github
+repository](https://github.com/zieglerk/zieglerk.github.io)
+holds the pages and posts, i.e. the content. It is then built/generated with
+Jekyll and dipslayed at [https://zieglerk.github.io/](https://pgbbs.github.io).
+
+So, we have the following architecture:
+- In the blog, we have posts ("What is ...") and pages ("How to ...").
+  You can browse theme there and edit them here. (There's also some outliers like "about" and "brown-bag".)
+- In this repository, we have "the dirty secrets" on how to
+  maintain the tech (mainly GitHub Pages, Jekyll, and Markdown) behind
+  this blog. The relevant files in `UPPERCASE.md`.
+  - README.md :: this overview
+  - ISSUES.md :: list of global TODOs (generally: put TODOs as close as
+    possible to the point of action.)
+  - HOW-TO-CONTRIBUTE.md :: how to write the proper mix of markdown and
+    liquid-syntax for this blog
+  - LICENSE.md :: ???TODO necessary???
+
+# Documentation
+
+For reproducibility -- and in case we totally break the system --
+let's document the technology and steps to get this site online
+
+## Ruby
+
+- Ruby :: programming language
+- Gem and RubyGems :: a Ruby package and Ruby's package manager
+- Gemfile :: specifies which packages (but not necessarily which
+  version) a Ruby program requires/you want to use. Then install with
+  :
+
+      bundle install
+
+- Gemfile.lock :: will be written with the exact package versions (for
+  easier distribution/reproducibility). On the next `bundle install`
+  these (stricter) requirements will be used (instead of Gemfile's)
+- Jekyll :: a static site generator written in Ruby
+
+## Jekyll
+
+## Markdown
+
+## ?Liquid-Syntax?
+
+for everything that Markdown can't do, like toc and
+:smile:
+
+## Troubleshooting
+
+If your page does not build, you'll receive an email-notification and
+the content of the email is also displayed in the repository's Setting >
+Options > GitHub Pages. Unfortunately, this is usually quite
+uninformative. You may have to `bundle exec jekyll serve` for better
+information through a local run.
 
 
-# Newsletter: Stay in Touch for Future Updates
 
-If you are a webdesigner interested in Jekyll, the static website generator, this little newsletter is for you. I share tutorials, clever code snippets and information about my own Jekyll Themes called [*Feeling Responsive*][7] and [*Simplicity*][8]. Please don't expect weekly emails :)
+# @Future
 
-[![Subscribe to Jekyll Newsletter](https://phlow.github.io/static/tinyletter_subscribe_button.png)](https://tinyletter.com/feeling-responsive)
+## TODOs
 
+- [ ] add a timestamp "last modified: <file-date>" to template
+- Do we need a LICENSE file?
+- Have 1 disclaimer (possibly as part of about) and link from this
+  readme and the footer
+- [ ] fix links from pages to posts
+- [ ] blog posts need to start with an image; default: photo of the presenter
+- [ ] pick and add a favicon/logo
+- [ ] add search functionality
 
-[![Start Video](https://github.com/Phlow/feeling-responsive/blob/gh-pages/images/video-feeling-responsive-1280x720.jpg)](https://www.youtube.com/embed/3b5zCFSmVvU)
+https://guides.github.com/features/issues/
 
-## A Responsive Jekyll Theme: *Feeling Responsive*
+## Wishlist
 
-Do you want to get to know *Feeling Responsive*? Than check it out first and have a look on its home at  <http://phlow.github.io/feeling-responsive/>.
+- Search: jekyll plugins are generally disabled for github pages, so in
+  particular the [search
+  plugin](https://github.com/slashdotdash/jekyll-lunr-js-search/issues/82)
 
-To get to know *Feeling Responsive* check out all the features explained in the [documentation][1].
+# Disclaimer -- see also contact.md
 
-And what license is *Feeling Responsive* released under? [This one][2].
-
-
-
-## Why use this theme?
-
-Feeling Responsive is heavily customizable.
-
-1. Language-Support :)
-2. Optimized for speed and it's responsive.
-3. Built on Foundation Framework.
-4. Six different Headers.
-5. Customizable navigation, footer,...
-
-**[More ›][3]**
-
-
-
-## Changelog
-
-*Feeling Responsive* is in active development. Thank you to everyone who contributed, especially [Róbert Papp][5], [Alexandra von Criegern](https://github.com/plutonik-a) and [Juan Jose Amor Iglesias](https://github.com/jjamor).
-
-**[Read Changelog ›][6]**
-
-
-
-## Video Tutorial
-
-Click the image to [watch the YouTube-Video-Tutorial][4].
-
-[![Start Video](https://github.com/Phlow/feeling-responsive/blob/gh-pages/images/video-feeling-responsive-tutorial-frontpage.jpg)](https://www.youtube.com/watch?v=rLS-BEvlEyY)
-
-
-
-
-
-
-
-
- [1]: http://phlow.github.io/feeling-responsive/documentation/
- [2]: https://github.com/Phlow/feeling-responsive/blob/gh-pages/LICENSE
- [3]: http://phlow.github.io/feeling-responsive/info/
- [4]: https://www.youtube.com/watch?v=rLS-BEvlEyY
- [5]: https://github.com/TWiStErRob
- [6]: https://phlow.github.io/feeling-responsive/changelog/
- [7]: http://phlow.github.io/feeling-responsive/
- [8]: http://phlow.github.io/simplicity/
- [9]: #
- [10]: #
+This is a purely private endeavor and not an official
+publication of our employer or the university. The views and advice
+presented here are therefore completely nonbinding -- in any
+direction. Use at your own risk.
